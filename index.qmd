@@ -1,0 +1,13 @@
+---
+title: "Home"
+listing:
+  template: my-post-list.ejs
+  id: my-post-list
+  contents: post*.qmd
+  sort: false
+---
+
+Here's a listing of _all_ my posts, with links and a preview of code:
+
+:::{#my-post-list}
+:::
